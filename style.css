@@ -5,7 +5,7 @@
 
 .contenitore {
     height: 100%;
-    width: 1200px;
+    width: 100%;
     margin: auto;
     border: 1px solid black;
 
@@ -13,23 +13,77 @@
 
 header {
     height: 200px;
+    width: 100%;
+    margin: auto;
 
 }
 
 #box-top {
     height: 100px;
+    width: 70%;
+    margin: auto;
     background-color: lightblue;
+    position: relative;
+
 }
+.box-top-sx {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(50%, - 40%);
+}
+
+.box-top-dx {
+    position: absolute;
+    top:40%;
+    right:10%;
+    transform: translate(50%, - 40%);
+}
+
 
 #box-bottom {
     height: 100px;
+    width: 100%;
+    margin: auto;
     background-color: white;
+    position: relative;
+}
+.logo {
+    max-height: 100%;
+    max-width: 10%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(50%, - 30%);
+}
+
+.menu-destra {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(50% - 40%);
+    font-size: 20px;
+}
+
+
+li {
+    display: inline-block;
+}
+
+
+div a.freccia::after {
+    content: "↧";
+    margin-left: 3px;
 
 }
 
+
 #box-bottom2{
     height: 100px;
+    width: 100%;
+    margin: auto;
     background-color: blue;
+    position: relative;
 }
 
 #box-center {
@@ -37,11 +91,21 @@ header {
     background-color: pink;
 }
 
-.text {
+.text1 {
     font-weight: normal;
+    font-size: 20px;
+    display: inline;
+
+}
+.text2 {
+    font-weight: normal;
+    font-size: 20px;
     display: inline;
 }
 
 h3{
     color: white;
+    padding: 30px;
+    text-align: left;
+
 }
