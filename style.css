@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+
+}
+
+.contenitore {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+header {
+    height: 200px;
+
+}
+
+#box-top {
+    height: 100px;
+    background-color: lightblue;
+}
+
+#box-bottom {
+    height: 100px;
+    background-color: white;
+
+}
+
+#box-bottom2{
+    height: 100px;
+    background-color: blue;
+}
+
+#box-center {
+    height: 600px;
+    background-color: pink;
+}
+
+.text {
+    font-weight: normal;
+    display: inline;
+}
+
+h3{
+    color: white;
+}
