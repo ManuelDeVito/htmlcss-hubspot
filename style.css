@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.contenitore {
+.container {
     height: 100%;
     width: 1200px;
     margin: auto;
-    border: 1px solid black;
+
 }
 
-.contenitore::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
@@ -21,6 +21,7 @@ header {
     height: 300px;
     width: 100%;
     margin: auto;
+
 }
 
 
@@ -29,6 +30,7 @@ header {
     width: 100%;
     margin: auto;
     background-color: #F5F8FA;
+
 }
 
 .box-top-sx {
@@ -64,6 +66,7 @@ header {
     height: 100%;
     padding: 25px;
     float: right;
+    margin-right: 10px;
 }
 
 .button1 {
@@ -71,6 +74,7 @@ header {
     font-size: 20px;
     border-color: 1px solid #FF7A59;
     color: #FF7A59;
+    border-radius: 10px;
 }
 
 .button2{
@@ -78,6 +82,7 @@ header {
     font-size: 20px;
     background-color: #FF7A59;
     color: white;
+    border-radius: 10px;
 }
 
 #box-bottom {
@@ -186,4 +191,345 @@ h3{
     font-size: 20px;
     width: 300px;
     margin-top: 20px;
+}
+
+.home{
+    padding: 100px 0px 50px;
+    background-color: #F5F8FA;
+}
+
+
+.multibox {
+    height: 1000px;
+    width: 100%;
+}
+
+.offers {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.powerful {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #33475B;
+}
+
+.Hubspot-offers {
+    font-weight: normal;
+    font-size: 20px;
+    color: #33475B;
+}
+
+.free-hubspot-crm {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.crm {
+    font-size: 30px;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #33475B;
+}
+
+.forever-free {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #33475B;
+}
+
+.popular-page {
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #33475B;
+}
+
+.popular-list {
+    color: #33475B;
+}
+
+.crm-free {
+    height: 60px;
+    width: 80%;
+    padding: 0 0px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #FF7A59;
+    border-radius: 3px;
+}
+
+
+
+.cms-hub {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 0 15px 0;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+
+
+.marketing-hub {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.sales-hub {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.service-hub {
+    height: 490px;
+    width: 390px;
+    padding: 30px;
+    margin: 0 0 15px 0;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.hubspot-web {
+    height: 1000px;
+    width: 100%;
+    padding: 100px 0;
+    background-color: #00BDA5;
+}
+
+.learn-and-grow {
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.learn {
+    font-size: 35px;
+    margin: 18px 0;
+    color: white;
+}
+
+.alone {
+    font-size: 20px;
+    color: white;
+}
+
+.user {
+    height: 500px;
+    width: 100%;
+}
+
+.box-user {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-monthly {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-certified {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-registered {
+    height: 250px;
+    width: 25%;
+    border-bottom: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-integrations {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-languages {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-followers {
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid white;
+    float: left;
+    position: relative;
+}
+
+.box-customers {
+    height: 250px;
+    width: 25%;
+    float: right;
+    position: relative;
+}
+
+.immagine {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    transform: translate(50% - 40%);
+    margin: auto;
+}
+
+.number1 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.immagine2 {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    margin: auto;
+}
+
+.number2 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.immagine3 {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    margin: auto;
+}
+.number3 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.immagine4 {
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    margin: auto;
+}
+
+.number4 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.immagine5 {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    max-width: 150px;
+    max-height: 100%;
+    margin: auto;
+}
+
+.number5 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.immagine6 {
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    margin: auto;
+}
+
+.number6 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.immagine7 {
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    margin: auto;
+}
+
+.number7 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.immagine8 {
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    margin: auto;
+}
+
+.number8 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 100px;
 }
