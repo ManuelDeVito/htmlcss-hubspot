@@ -533,3 +533,70 @@ h3{
     text-align: center;
     margin-top: 100px;
 }
+
+.star-growing {
+    height: 1100px;
+    width: 100%;
+    background-color: #F5F8FA;
+}
+
+.hubspot-today {
+    height: 400px;
+    width: 100%;
+}
+
+.hubspot-today-day {
+    width: 35%;
+    padding: 150px 0 0 100px;
+}
+
+.hubspot-today-day h2 {
+    font-size: 50px;
+    color: #33475B;
+    margin-bottom: 10px;
+}
+
+.hubspot-today p {
+    font-size: 20px;
+
+}
+
+.star-growing-today {
+    height: 700px;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.star-growing-today-day {
+    width: 55%;
+    padding: 100px 0 0 100px;
+}
+
+.star-growing-today-day .with {
+    font-size: 40px;
+    color: #33475B;
+    margin-bottom: 30px;
+}
+
+.star-growing-today-day .human {
+        font-size: 25px;
+        color: #33475B;
+        margin-bottom: 30px;
+
+}
+
+.star-growing-today-day .get {
+    height: 70px;
+    font-size: 20px;
+    background-color: #FF7A59;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.star-growing-today-day .started {
+    font-size: 15px;
+    font-weight: normal;
+
+}
