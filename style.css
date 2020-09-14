@@ -48,7 +48,10 @@ header {
 }
 
 .text1::after {
-    content: "↧";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    content: "\f0d7";
+    padding-left: 10px;
     margin-left: 3px;
 }
 
@@ -66,23 +69,26 @@ header {
     height: 100%;
     padding: 25px;
     float: right;
-    margin-right: 10px;
+
 }
 
 .button1 {
     height: 50px;
+    width: 100px;
     font-size: 20px;
     border-color: 1px solid #FF7A59;
     color: #FF7A59;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
 
 .button2{
     height: 50px;
+    width: 200px;
     font-size: 20px;
     background-color: #FF7A59;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #box-bottom {
@@ -90,6 +96,7 @@ header {
     width: 100%;
     margin: auto;
     background-color: white;
+
 }
 
 .left{
@@ -117,11 +124,16 @@ header {
     width: auto;
     font-size: 20px;
     float: right;
-    word-spacing: 40px;
+    word-spacing: 30px;
+    margin-right: 30px;
+}
+
+header li {
+    display: inline-block;
 }
 
 li {
-    display: inline-block;
+    list-style-type: none;
 }
 
 a {
@@ -130,7 +142,10 @@ a {
 }
 
 div a.freccia::after {
-    content: "↧";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    content: "\f0d7";
+    padding-left: 10px;
     margin-left: 3px;
 }
 
@@ -139,12 +154,7 @@ div a.freccia::after {
     width: 100%;
     margin: auto;
     background-color: #425B76;
-}
 
-#box-center {
-    height: 600px;
-    width: 100%;
-    background-color: #FFF0F5;
 }
 
 h3{
@@ -153,6 +163,14 @@ h3{
     text-align: left;
     font-weight: normal;
 }
+
+#box-center {
+    height: 600px;
+    width: 100%;
+    background-color: #FFF0F5;
+
+}
+
 
 .titolo{
     height: 100%;
@@ -193,8 +211,9 @@ h3{
     margin-top: 20px;
 }
 
+
 .home{
-    padding: 100px 0px 50px;
+    padding-top: 100px;
     background-color: #F5F8FA;
 }
 
@@ -258,11 +277,18 @@ h3{
     color: #33475B;
 }
 
+.popular-list p {
+    display: inline-block;
+    padding-bottom: 20px;
+
+
+}
+
 .crm-free {
     height: 60px;
     width: 80%;
     padding: 0 0px;
-    margin-top: 50px;
+    margin-top: 15px;
     color: white;
     font-size: 20px;
     background-color: #FF7A59;
@@ -278,8 +304,27 @@ h3{
     margin: 0 0 15px 0;
     background-color: #FFFFFF;
     float: left;
+    position: relative;
 }
 
+.new {
+    height: 30px;
+    width: 50px;
+    background-color: #00BDA5;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    border-radius: 3px;
+}
+
+.new p {
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+
+
+}
 
 
 .marketing-hub {
@@ -535,7 +580,7 @@ h3{
 }
 
 .star-growing {
-    height: 1100px;
+    height: 1000px;
     width: 100%;
     background-color: #F5F8FA;
 }
@@ -599,4 +644,140 @@ h3{
     font-size: 15px;
     font-weight: normal;
 
+}
+
+/* ---------- inizio footer------------ */
+
+.footer-layout {
+    height: 725px;
+    width: 100%;
+    margin: auto;
+    background-color: #33475B;
+}
+
+.footer-nav {
+    height: 400px;
+    width: 300px;
+    padding: 50px 0 0 100px;
+    float: left;
+}
+
+.title-nav {
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+}
+
+
+.nav-menu {
+    color: white;
+    font-size: 15px;
+}
+
+
+.nav-menu-text {
+    padding-bottom: 20px;
+    color: #CBD6E2;
+}
+
+.nav-menu-text-fr::after {
+    font-size: 18px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    content: "\f0d7";
+    padding-left: 10px;
+}
+
+.Hubspot-support {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #33475B;
+}
+
+.social {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 11px 0 0;
+    color: #CBD6E2;
+}
+
+.languages {
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin: 30px 0;
+}
+
+.different-languages-1 {
+    padding-left: 250px;
+    padding-right: 15px;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.different-languages {
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.different-languages a {
+    color: #CBD6E2;
+}
+
+.different-languages-1 a {
+    color: #CBD6E2;
+}
+
+.logo-footer {
+    max-height: 130px;
+    max-width: 150px;
+    width: auto;
+    margin-bottom: 30px;
+    background-color: #CBD6E2;
+}
+
+
+.footer-copyright {
+    height: 150px;
+    width: 100%;
+    margin: 30px 0;
+    color: #CBD6E2;
+    float: left;
+}
+
+.footer-copyright-left {
+    height: 150px;
+    width: 50%;
+    margin: 30px 0;
+    float: left;
+
+}
+
+
+.footer-copyright-right {
+    height: 150px;
+    width: 50%;
+    margin: 30px 0;
+    float: left;
+
+
+}
+
+.privacy-one {
+    display: inline-block;
+    padding-left: 50%;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.privacy-two {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-right: 20px;
 }
